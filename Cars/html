@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CARSHUB</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div id="logo">CARSHUB</div>
+            <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Category</a>
+            <a href="#">Brand</a>
+            <a href="#">Support & Services</a>
+            <a href="#" style="background:linear-gradient(45deg, #7b5d12, #856b15 , #c2a13c );text-align:center;border-radius:40px;">+SHOP</a>
+            </div>
+        </header>
+    <section class="banner">
+        <img src="https://th.bing.com/th/id/OIP.FfSjsA7heijgHbK1KXQEtAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="welcome banner>
+    </section>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for Cars..." required>
+        <button onclick="alert('Searching has been completed')">Search</button>
+    </div>
+    <div class="slideshow-container">
+        <!-- First set of images -->
+        <div class="slideshow">
+            <div class="slideshow-image image1"></div>
+            <div class="slideshow-image image2"></div>
+            <div class="slideshow-image image3"></div>
+        </div>
+        <!-- Second set of images -->
+        <div class="slideshow">
+            <div class="slideshow-image image4"></div>
+            <div class="slideshow-image image5"></div>
+            <div class="slideshow-image image6"></div>
+        </div>
+        <!-- Third set of images -->
+        <div class="slideshow">
+            <div class="slideshow-image image7"></div>
+            <div class="slideshow-image image8"></div>
+            <div class="slideshow-image image9"></div>
+        </div>
+        <div class="container">
+            <img src="https://th.bing.com/th/id/OIP.ciqVdL59o4RqINc1LPruagHaEK?w=303&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Ford Shop" class="image">
+            <div class="middle">
+              <div class="text">.
+            </div>
+        </div>
+        <div class="product-listings">
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.Xl_Z2K8VlOj0psGegeiveAHaFw?w=225&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Lamborghini">
+                <div class="product-info">
+                    <h2>Lamborghini</h2>
+                    <p>$211,321</p>
+                </div>
+            </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.sc7AKNa2zzIm2aNNG6duaQHaHa?w=161&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Ferrari">
+            <div class="product-info">
+                <h2>Ferrari</h2>
+                <p>$500,000</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.Kgz87Y2Za2eQtyOJKl_ffwHaE8?w=275&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="BMW">
+            <div class="product-info">
+                <h2>BMW</h2>
+                <p>$42,000</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.68_ImXS7P1eY4hM5elpIxwHaD4?w=332&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="TATA">
+            <div class="product-info">
+                <h2>TATA</h2>
+                <p>₹6.6Lakh</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.h6VoSUUSZL-gqA7GEY6z_QAAAA?w=283&h=175&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Ford">
+            <div class="product-info">
+                <h2>Ford</h2>
+                <p>$26,000</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.Ea9Tb0GX8WP_XmEUGGr04gHaE8?w=259&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Bugatti">
+            <div class="product-info">
+                <h2>Bugatti</h2>
+                <p>$2.5 milion</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.aSngOuag6KZrhpkryZDLlwHaEo?w=243&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="mustang">
+            <div class="product-info">
+                <h2>Mustang</h2>
+                <p>$2.1million</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.NXzTrd_p6HtrAHKvvYJMrAHaEo?w=292&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Supra">
+            <div class="product-info">
+                <h2>Supra</h2>
+                <p>$3.2 million</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.54utrdFXqIIfa2CeWn-nEgHaEK?w=229&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="McLaren">
+            <div class="product-info">
+                <h2>Mc Laren</h2>
+                <p>$4 million</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP._BrMeZrlqvLkBxgFi6U2QgHaEK?w=285&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="GTR">
+            <div class="product-info">
+                <h2>GTR</h2>
+                <p>$30million</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Exchange Policy</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p><i class="fa fa-map-marker"></i> America, chicago-600036.</p>
+                <p><i class="fa fa-phone"></i> +1 10001 37770</p>
+                <div class="social-icons">
+                    <a href="#" class="fa fa-whatsapp"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                </div>
+            </div>
+            © Developed by Webops and Blockchain Club, CFI
+        </div>
+    </footer>
+
+
+    </body>
+</html>
